@@ -3,6 +3,7 @@
     --main-bg-color-light-green: #E1EDE6;
     --main-text-color-dark: #2C2D35;
     --main-color-light-green: #86928B;
+    --color-light-grey: #C3D1C6;
     --main-color-green: #598D66;
     --main-color-dark-green: #376B44;
     --button-color-yellow: #EEDB6D;
@@ -61,6 +62,8 @@ header {
 
 .logo-wrapper {
     display: grid;
+
+    border-inline: 33px;
 }
 
 .logo {
@@ -153,6 +156,8 @@ h1 {
 .cards {
     display: grid;
     gap: 30px;
+
+    justify-content: center;
 }
 
 .card {
@@ -192,7 +197,7 @@ h1 {
 }
 
 .card__type {
-    font-size: 20px;
+    font-size: 16px;
 
     margin-bottom: 30px;
 }
@@ -382,4 +387,24 @@ footer {
     color: var(--main-color-light-green);
     font-size: 12px;
     line-height: 120%; 
+}
+
+@media screen and (width > 509px) {
+    .logo-wrapper {
+        background-color: var(--main-bg-color-light-green);
+        border-bottom: 1px solid var(--color-light-grey);
+    }
+
+    .card {
+        max-width: 240px;
+        padding: 20px 20px 30px 20px;
+    }
+
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .promo__button {
+        width: auto;
+    }
 }
