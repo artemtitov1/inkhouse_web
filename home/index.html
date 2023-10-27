@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Home page</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo-wrapper">
+            <div class="logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="35" viewBox="0 0 36 35" fill="none">
+                    <path
+                        d="M18 0L20.4652 9.10444L27.4612 2.77806L24.6128 11.77L33.9186 10.2302L26.6609 16.2547L35.3219 19.9905L25.9593 21.1349L31.2256 28.9601L22.7306 24.861L22.9303 34.2911L18 26.25L13.0697 34.2911L13.2694 24.861L4.77438 28.9601L10.0407 21.1349L0.678125 19.9905L9.33906 16.2547L2.08144 10.2302L11.3872 11.77L8.53879 2.77806L15.5348 9.10444L18 0Z"
+                        fill="#598D66" />
+                </svg>
+                <span>Ink. House</span>
+            </div>
+        </div>
+        <div class="header__content container">
+            <div class="header__nav">
+                <svg id="nav-icon" alt="navigation" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M4.6875 21.5625C4.6875 21.3139 4.78627 21.0754 4.96209 20.8996C5.1379 20.7238 5.37636 20.625 5.625 20.625H24.375C24.6236 20.625 24.8621 20.7238 25.0379 20.8996C25.2137 21.0754 25.3125 21.3139 25.3125 21.5625C25.3125 21.8111 25.2137 22.0496 25.0379 22.2254C24.8621 22.4012 24.6236 22.5 24.375 22.5H5.625C5.37636 22.5 5.1379 22.4012 4.96209 22.2254C4.78627 22.0496 4.6875 21.8111 4.6875 21.5625ZM4.6875 14.0625C4.6875 13.8139 4.78627 13.5754 4.96209 13.3996C5.1379 13.2238 5.37636 13.125 5.625 13.125H24.375C24.6236 13.125 24.8621 13.2238 25.0379 13.3996C25.2137 13.5754 25.3125 13.8139 25.3125 14.0625C25.3125 14.3111 25.2137 14.5496 25.0379 14.7254C24.8621 14.9012 24.6236 15 24.375 15H5.625C5.37636 15 5.1379 14.9012 4.96209 14.7254C4.78627 14.5496 4.6875 14.3111 4.6875 14.0625ZM4.6875 6.5625C4.6875 6.31386 4.78627 6.0754 4.96209 5.89959C5.1379 5.72377 5.37636 5.625 5.625 5.625H24.375C24.6236 5.625 24.8621 5.72377 25.0379 5.89959C25.2137 6.0754 25.3125 6.31386 25.3125 6.5625C25.3125 6.81114 25.2137 7.0496 25.0379 7.22541C24.8621 7.40123 24.6236 7.5 24.375 7.5H5.625C5.37636 7.5 5.1379 7.40123 4.96209 7.22541C4.78627 7.0496 4.6875 6.81114 4.6875 6.5625Z" fill="#4C5866"/>
+                  </svg>
+            </div>
+            <div class="header__cart">
+                <img src="/assets/cart.svg" alt="shopping cart" id="cart-icon" />
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero container">
+            <div class="hero__text">
+                <h1 id="title">Реплики картин от <span class="color-green">Ink. House</span></h1>
+                <p class="hero__subtitle">Высокое качество отрисовки на плотной бумаге или льняном холсте. Редкие произведения, доступные цены.</p>
+                <button class="hero__product-btn main-button">Продукция</button>
+            </div>
+        </section>
+        
+        <section class="replica">
+            <div class="replica__country">
+                <h2>Репродукции</h2>
+                <div class="replica__country-buttons">
+                    <button class="switch-button active">Франция</button>
+                    <button class="switch-button">Германия</button>
+                    <button class="switch-button">Англия</button>
+                </div>
+            </div>
+
+            <div class="cards">
+                <div class="card">
+                    <div class="card_image">
+                        <img src="/assets/1.jpg" alt="" >
+                    </div>
+                    <div class="card__author"><span>Марсель Руссо</span></div>
+                    <div class="card__title"><span>Охота Амура</span></div>
+                    <div class="card__type"><span>Холст, масло (50х80)</span></div>
+                    <div class="card__price"><span>14 500 руб</span></div>
+                    <button class="main-button">В корзину</button>
+                </div>
+                <div class="card">
+                    <div class="card_image">
+                        <img src="/assets/2.jpg" alt="" >
+                    </div>
+                    <div class="card__author"><span>Анри Селин</span></div>
+                    <div class="card__title"><span>Дама с собачкой</span></div>
+                    <div class="card__type"><span>Акрил, бумага (50х80)</span></div>
+                    <div class="card__price"><span>16 500 руб</span></div>
+                    <button class="main-button">В корзину</button>
+                </div>
+                <div class="card">
+                    <div class="card_image">
+                        <img src="/assets/3.jpg" alt="" >
+                    </div>
+                    <div class="card__author"><span>Франсуа Дюпон</span></div>
+                    <div class="card__title"><span>Процедура</span></div>
+                    <div class="card__type"><span>Цветная литография (40х60) </span></div>
+                    <div class="card__price"><span>20 000 руб</span></div>
+                    <button class="main-button">В корзину</button>
+                </div>
+                <div class="card">
+                    <div class="card_image">
+                        <img src="/assets/4.jpg" alt="" >
+                    </div>
+                    <div class="card__author"><span>Луи Детуш</span></div>
+                    <div class="card__title"><span>Роза</span></div>
+                    <div class="card__type"><span>Бумага, акрил (50х80) </span></div>
+                    <div class="card__price"><span>12 000 руб</span></div>
+                    <button class="main-button">В корзину</button>
+                </div>
+                <div class="card">
+                    <div class="card_image">
+                        <img src="/assets/5.jpg" alt="" >
+                    </div>
+                    <div class="card__author"><span>Франсуа Дюпон</span></div>
+                    <div class="card__title"><span>Птичья трапеза</span></div>
+                    <div class="card__type"><span>Цветная литография (40х60) </span></div>
+                    <div class="card__price"><span>22 500 руб</span></div>
+                    <button class="main-button">В корзину</button>
+                </div>
+                <div class="card">
+                    <div class="card_image">
+                        <img src="/assets/6.jpg" alt="" >
+                    </div>
+                    <div class="card__author"><span>Пьер Моранж</span></div>
+                    <div class="card__title"><span>Пейзаж с рыбой</span></div>
+                    <div class="card__type"><span>Цветная литография (40х60) </span></div>
+                    <div class="card__price"><span>20 000 руб</span></div>
+                    <button class="main-button">В корзину</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="promo">
+                <div class="promo__container">
+                    <div class="promo__title">
+                        <div class="promo__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="49" viewBox="0 0 50 49" fill="none">
+                                <path d="M29.5277 14.1189L35.4131 8.79691L33.0169 16.3613L32.2781 18.6935L34.6917 18.2941L42.5201 16.9988L36.4147 22.0669L34.5323 23.6295L36.7787 24.5984L44.0646 27.7411L36.1884 28.7038L33.7601 29.0006L35.126 31.0302L39.5562 37.613L32.4099 34.1647L30.2065 33.1015L30.2583 35.5474L30.4264 43.4805L26.2788 36.7159L25 34.6303L23.7212 36.7159L19.5736 43.4805L19.7417 35.5474L19.7935 33.1015L17.5901 34.1647L10.4438 37.613L14.874 31.0302L16.2399 29.0006L13.8116 28.7038L5.93539 27.7411L13.2213 24.5984L15.4677 23.6295L13.5853 22.0669L7.47989 16.9988L15.3083 18.2941L17.7219 18.6935L16.9831 16.3613L14.5869 8.79691L20.4723 14.1189L22.2868 15.7598L22.9262 13.3984L25 5.73935L27.0738 13.3984L27.7132 15.7598L29.5277 14.1189Z" stroke="#EEDB6D" stroke-width="3"/>
+                            </svg>
+                        </div>
+                        <div class="promo__title-text">Новая коллекция французских авторов</div>
+                    </div>
+                    <div class="promo__text">
+                        <p>Сложно сказать, почему акционеры крупнейших компаний призывают нас к новым свершениям, которые, в свою очередь, должны быть заблокированы в рамках своих собственных рациональных ограничений.
+                            Принимая во внимание показатели успешности, граница обучения кадров предопределяет высокую востребованность направлений прогрессивного развития.</p>
+                    </div>
+                    <button class="promo__button">Ознакомиться</button>
+                </div>
+        </section>
+
+        <section class="team">
+            <!-- <div class="team__image">
+                <img id="frame-img" src="/assets/frame.png" alt="frame">
+                <img id="hand-img" src="/assets/hand.png" alt="hand">
+            </div> -->
+            <div class="team__info">
+                <div class="team__title">
+                    <h2>Наша команда</h2>
+                </div>
+                <div class="team__text">
+                    <p>Значимость этих проблем настолько очевидна, что базовый вектор развития позволяет оценить значение экспериментов, поражающих по своей масштабности и грандиозности. Мы вынуждены отталкиваться от того, что консультация с широким активом.</p>
+                </div>
+                <div class="team__portraits">
+                    <div class="team__portrait">
+                        <img class src="/assets/p1.jpg" alt="">
+                    </div>
+                    <div class="team__portrait">
+                        <img src="/assets/p2.jpg" alt="">
+                    </div>
+                    <div class="team__portrait">
+                        <img src="/assets/p3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="footer__wrapper">
+            <div class="footer__nav">
+                <div class="footer__logo-wrapper">
+                    <div class="footer__logo">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="35" viewBox="0 0 36 35" fill="none">
+                            <path
+                                d="M18 0L20.4652 9.10444L27.4612 2.77806L24.6128 11.77L33.9186 10.2302L26.6609 16.2547L35.3219 19.9905L25.9593 21.1349L31.2256 28.9601L22.7306 24.861L22.9303 34.2911L18 26.25L13.0697 34.2911L13.2694 24.861L4.77438 28.9601L10.0407 21.1349L0.678125 19.9905L9.33906 16.2547L2.08144 10.2302L11.3872 11.77L8.53879 2.77806L15.5348 9.10444L18 0Z"
+                                fill="#598D66" />
+                        </svg>
+                        <span>Ink. House</span>
+                    </div>
+                </div>
+                <div class="footer__block">
+                    <div class="footer__title">
+                        <span>+7 (999) 543-54-54</span>
+                    </div>
+                    <div class="footer__links">
+                        <span>Мастерская</span>
+                    </div>
+                </div>
+                <div class="footer__block">
+                    <div class="footer__title">
+                        <span>Репродукции</span>
+                    </div>
+                    <div class="footer__links">
+                        <span>Франция</span>
+                        <span>Германия</span>
+                        <span>Англия</span>
+                    </div>
+                </div>
+                <div class="footer__block">
+                    <div class="footer__title">
+                        <span>Новинки</span>
+                    </div>
+                    <div class="footer__links">
+                        <span>2021</span>
+                        <span>2020</span>
+                    </div>
+                </div>
+                <div class="footer__block">
+                    <div class="footer__title">
+                        <span>О нас</span>
+                    </div>
+                    <div class="footer__links">
+                        <span>Художники</span>
+                        <span>Менеджеры</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__socials">
+                <div class="footer__socials-icons">
+                    <img src="/assets/fb.svg" alt="">
+                    <img src="/assets/inst.svg" alt="">
+                    <img src="/assets/yt.svg" alt="">
+                </div>
+                <div class="footer__copyright">
+                    <p>Ink. House ® All rights reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
